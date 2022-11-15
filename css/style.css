@@ -1,0 +1,112 @@
+:root {
+    --primary: #a6a5a5;
+    --light: #F8F8F8;
+    --dark: #252525;
+}
+
+body{
+    background: url(../img/1620723474_9-phonoteka_org-p-fon-dlya-storis-massazh-12.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h1,
+h2,
+.h1,
+.h2,
+.fw-bold {
+    font-weight: 600 !important;
+    color:var(--dark) !important;
+}
+
+h3,
+h4,
+.h3,
+.h4,
+.fw-medium {
+    font-weight: 500 !important;
+    color:var(--dark) !important;
+}
+
+h5,
+h6,
+.h5,
+.h6,
+.fw-normal {
+    font-weight: 400 !important;
+    color:var(--light) !important;
+}
+
+
+
+.form-control, .form-control:hover, .form-control:focus, .form-control:root{
+
+    background-color: rgba(161, 155, 163, 0.781);
+    font-weight: 900 !important;
+    color: black;
+    box-shadow: none;
+}
+
+.col-md-5{
+    padding-left: 100px;
+}
+
+
+.BtnForm{
+    background-color: rgba(131, 111, 139, 0.781);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-weight: 800;
+    border: 2px solid rgba(127, 112, 133, 0.781);
+    color: #2a2a2a;
+    width: 40%;
+    
+}
+
+.BtnFormP{
+    width: 40%;
+    background-color: rgba(131, 111, 139, 0.781);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-weight: 800;
+    border: 1px double rgba(103, 87, 109, 0.781);
+    color: #2a2a2a;
+    
+
+}
+
+a.BtnForm:hover{
+    color:#a6a5a5;
+}
+
+#poruka{
+    color: rgba(100, 65, 113, 0.781) !important;
+    font-family:"Open Sans",sans-serif;
+    text-transform: capitalize;
+    font-size:2rem;
+
+}
+
+
+#odg{
+    color: rgba(175, 104, 201, 0.781) !important;
+}
+
+
+.table{
+    background-color: rgba(188, 139, 205, 0.655) !important;
+    border: 2px solid rgba(103, 87, 109, 0.781);
+    color: #2a2a2a;
+    width: 50%;
+    margin-bottom: 50px;
+    margin-left: 24%;
+
+}
